@@ -1,0 +1,19 @@
+.buttons.has-addons {
+  justify-content: flex-end;
+  :nth-child(1) {
+    border-width: 2px 0px 2px 2px;
+  }
+  :nth-child(2) {
+    border-width: 2px 0px 2px 0px;
+  }
+  :nth-child(3) {
+    border-width: 2px 2px 2px 0px;
+  }
+  > .button {
+    width: 33.3333%;
+    // border: 1px solid #dbdbdb !important;
+    // &:active {
+    //   border: 1px solid #1496ed !important;
+    // }
+  }
+}

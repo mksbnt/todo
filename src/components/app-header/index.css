@@ -1,0 +1,9 @@
+.app-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.title {
+  user-select: none;
+}

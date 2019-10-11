@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import { Sbutton } from "./styled";
+import { Sinput } from "../search-panel/styled";
+
 export default class ItemAddForm extends Component {
   state = {
     label: ""
@@ -26,7 +28,7 @@ export default class ItemAddForm extends Component {
       <form className="item-add-form" onSubmit={this.onSubmit}>
         <div className="columns">
           <div className="column is-9">
-            <input
+            <Sinput
               type="text"
               className="input"
               onChange={this.onLabelChange}

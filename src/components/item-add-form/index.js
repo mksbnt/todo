@@ -20,6 +20,8 @@ export default class ItemAddForm extends Component {
       this.setState({
         label: ""
       });
+    } else {
+      document.getElementById("input").focus();
     }
   };
 
@@ -29,6 +31,7 @@ export default class ItemAddForm extends Component {
         <div className="columns">
           <div className="column is-9">
             <Sinput
+              id="input"
               type="text"
               className="input"
               onChange={this.onLabelChange}

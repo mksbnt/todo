@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Swrapper, Sbutton } from "./styled";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faExclamation, faTrash } from "@fortawesome/free-solid-svg-icons";
-import "./index.css";
+import "./index.scss";
 
 export default class TodoListItem extends Component {
   render() {

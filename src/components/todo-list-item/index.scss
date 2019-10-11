@@ -23,3 +23,11 @@
   text-transform: uppercase;
   color: steelblue;
 }
+
+.button {
+  &:hover {
+    .icon {
+      transform: scale(1.07);
+    }
+  }
+}

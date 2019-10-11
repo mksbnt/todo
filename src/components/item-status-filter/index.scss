@@ -11,9 +11,10 @@
   }
   > .button {
     width: 33.3333%;
-    // border: 1px solid #dbdbdb !important;
-    // &:active {
-    //   border: 1px solid #1496ed !important;
-    // }
+    &:active {
+      color: #209cee;
+      border-color: #209cee;
+      transform: scale(1.01);
+    }
   }
 }
